@@ -3,7 +3,7 @@ name: zotero-paper-workflows
 description: "Run ordered Zotero research workflows: discover and archive source papers, then translate explicitly selected English PDFs into page-aligned Chinese PDFs and attach them under the matching Zotero items. Use when the user asks for this Zotero-paper pipeline or an extension of it."
 ---
 
-# Zotero Embodied Paper Workflows
+# Zotero Paper Workflows
 
 This skill defines an extensible, ordered workflow registry. Execute requested workflows in numeric order; do not skip an earlier workflow when a later one depends on its artifacts.
 
@@ -24,3 +24,4 @@ Future workflows should be added as `3`, `4`, and so on in this section, with on
 - Maintain a manifest mapping each parent Zotero item key to its source PDF, translated PDF, page count, page size, and attachment key when available.
 - “Full translation” means no omitted body prose and no summary substitution. References, equations, code, numeric table values, and text embedded inside figures/charts may remain in the original language when the user explicitly allows them; label that choice in the manifest.
 - Before reporting completion, verify the actual files, page counts, page dimensions, rendered layout, and Zotero parent-child relationships. If any requirement is unverified, report the gap instead of claiming completion.
+
