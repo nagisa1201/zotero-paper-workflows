@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Paper Workflows"
+  short_description: "Search, archive, translate, and attach aligned paper PDFs in Zotero"
+  default_prompt: "Use $zotero-paper-workflows. Follow the numbered workflows in order, preserve original PDFs, and verify every Zotero attachment and PDF layout requirement before reporting completion."
